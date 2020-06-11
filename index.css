@@ -42,11 +42,29 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+/* .button {
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+	font-size: 2rem;
+	height: 40px;
+} */
+
+body {
+	font-family: 'Roboto Mono', monospace;
+
+
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 2rem;
+}
 .plan-visit {
     background-color: #ff764e;
-    font-size: 62.5%;
-    text-align: center;
-
 }
 
 .learn-about-park {
@@ -58,14 +76,24 @@ table {
 }
 
 footer a {
-    position: relative;
+	border-radius: 20px;
+	position: relative;
     padding: 2% 0;
     margin: 3.3%;
-    width: 21%;
+    width: 10.058027%;
     display: inline-block;
     text-align: center;
 }
 
+header a {
+	border-radius: 20px;
+	padding: 2% 0;
+	margin: 3.3%;
+	width: 21%;
+	display: inline-block;
+	text-align: center;
+
+}
 header, footer {
     text-align: center;
 }
