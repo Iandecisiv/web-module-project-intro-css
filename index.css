@@ -56,22 +56,78 @@ table {
 body {
 	font-family: 'Roboto Mono', monospace;
 
-
 }
 
 h1 {
 	font-family: 'Chelsea Market', cursive;
-	font-size: 2rem;
+	font-size: 3rem;
 }
-.plan-visit {
+
+h2 {
+	font-size: 1.9rem;
+	padding: 6%;
+}
+
+.park_and_picture {
+	position: relative;
+	margin: auto;
+	padding: auto;
+}
+
+.fire_text, .rv_text {
+	text-align: center;
+	font-size:
+}
+
+.rv_fire {
+	position: relative;
+	width: 50%;
+	height: 16em;
+	margin: 1.5%;
+}
+
+.circle_img {
+	border-radius: 50%;
+	padding: 10%;
+	margin: auto;
+	position: relative;
+	width: 22.5%;
+}
+
+.come_explore_always_open {
+	float: right;
+	position: relative;
+	padding: 3%;
+	text-align: center;
+	margin-top: 13%;
+	width: 50%;
+}
+
+.main_text_body {
+	background-color: #DDB9A3;
+	text-decoration: none;
+	color: white;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
+}
+
+.fire_text span{
+	font-weight: bold;
+}
+
+.rv_text span{
+	font-weight: bold;
+}
+
+.plan_visit {
     background-color: #ff764e;
 }
 
-.learn-about-park {
+.learn_about_park {
     background-color: #5ed3eb;
 }
 
-.get-involved {
+.get_involved {
     background-color: #ffcd69
 }
 
@@ -82,7 +138,25 @@ footer a {
     margin: 3.3%;
     width: 10.058027%;
     display: inline-block;
-    text-align: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	font-size: 1.3rem;
+	padding: 2%;
+	width: 33%;
+	margin-left: 32%;
+	margin-right: 32%;
+}
+
+.main_text_body p {
+	font-size: 1.3rem;
+	padding: 2%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 header a {
@@ -92,8 +166,18 @@ header a {
 	width: 21%;
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
+	color: white;
 
 }
 header, footer {
-    text-align: center;
+	text-align: center;
+}
+
+footer {
+	background-color: #F9E7DC
+}
+
+.foot_img {
+	width: 100%;
 }
